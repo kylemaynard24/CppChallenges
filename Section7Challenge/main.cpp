@@ -64,6 +64,13 @@ int main() {
 	cout << vector_2d.at(1).at(0) << endl;
 	cout << vector_2d.at(1).at(1) << endl;
 	
+	vector1.at(0) = 1000;
+	vector_2d.show();
+	vector1.show();
+	
+	//output for vector1 = {1000, 20}, vector_2d.show() = {{10, 20}, {100, 200}}
+	
+	//for vector_2d to show {{1000, 20}, {100,200}}
 	vector_2d.at(0).at(0) = 1000; 
 	
 	cout << vector_2d.at(0).at(0) << endl;
